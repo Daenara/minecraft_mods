@@ -1,0 +1,16 @@
+[
+{
+  "modid": "showfps",
+  "name": "Show FPS",
+  "description": "Just a FPS counter",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Daenara"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
