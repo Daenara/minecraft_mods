@@ -26,14 +26,14 @@ public class ShowFPS
     public void preInit(FMLPreInitializationEvent event)
     {
         // DEBUG
-        System.out.println(MODNAME + " Starting PreInit");
+        UsefullThings.printDebugMessage("Starting PreInit");
     }
         
     @EventHandler
     public void Init(FMLInitializationEvent event)
     {
         // DEBUG
-        System.out.println(MODNAME + " Starting Init");
+        UsefullThings.printDebugMessage("Starting Init");
         
         registerEventListeners();
     }
@@ -42,13 +42,13 @@ public class ShowFPS
     public void postInit(FMLPostInitializationEvent event)
     {
         // DEBUG
-        System.out.println(MODNAME + " Starting PostInit");
+        UsefullThings.printDebugMessage("Starting PostInit");
     }
     
     public void registerEventListeners() 
 {
-        // DEBUG
-        System.out.println(MODNAME + "Registering event listeners");       
+        // DEBUG       
+        UsefullThings.printDebugMessage("Registering event listeners");
         
         MinecraftForge.EVENT_BUS.register(new HUDRenderer());
 }
