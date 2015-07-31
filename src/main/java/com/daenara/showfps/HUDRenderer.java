@@ -1,5 +1,5 @@
 package com.daenara.showfps;
-import static com.daenara.showfps.UsefullThings.*;
+import static com.daenara.showfps.UsefulThings.*;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;

@@ -1,6 +1,6 @@
 package com.daenara.showfps;
 
-public class UsefullThings 
+public class UsefulThings 
 {
     public static String fillString(String string, Integer lenght, char filling)
     {
