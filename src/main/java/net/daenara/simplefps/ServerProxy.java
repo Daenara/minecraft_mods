@@ -21,4 +21,3 @@ public class ServerProxy extends CommonProxy {
         super.postInit(event);
     }
 }
-
