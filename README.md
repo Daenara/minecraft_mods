@@ -1,0 +1,1 @@
+Here you can find he source of my minecraft mods. Right now just a mod to show the fps. The com.daenara folder is for 1.8 and contains the original code, the net.daenara is the (renamed) 1.10 version with no significant code changes since it still works in 1.10. This one might receive updates in the future.
